@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 1280px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Sora", sans-serif;
+
+
+}
+
+header {
+    margin: 70px 0px;
+    width: 570px;
+    text-align: center;
+
+    h1 {
+        margin: 20px 0;
+    }
+
+    p {
+        color: gray;
+    }
+}
+
+.form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 17px;
+
+    border-radius: 10px;
+    background-color: #F9FAFB;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+
+    input,
+    button {
+        width: 100%;
+        display: block;
+        padding: 15px 100px;
+        border-radius: 10px;
+    }
+
+    input {
+        padding: 15px 100px;
+        background-color: #F9FAFB;
+        font-weight: 700;
+        font-size: 0.7em;
+    }
+
+    button {
+        padding: 15px 135px;
+        color: #fff;
+        background-color: #284BCE;
+        border: none;
+        margin: 20px 0px 20px 0px;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 0.7em;
+        color: #6C727F;
+        text-align: center;
+    }
+}
