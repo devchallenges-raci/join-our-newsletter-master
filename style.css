@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 9%;
+}
 
 .wrapper {
     width: 1280px;
